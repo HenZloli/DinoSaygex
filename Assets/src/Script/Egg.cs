@@ -8,5 +8,6 @@ public class Egg : MonoBehaviour
     {
         gameObject.SetActive(false);
         player.SetActive(true);
+        Debug.Log("Start");
     }
 }
