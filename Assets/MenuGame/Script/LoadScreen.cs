@@ -20,6 +20,7 @@ public class LoadScreen : MonoBehaviour
     }
     private void ParallaxScrollMenu()
     {
+        // background menu
         float speedMenu = menuSpeed * parallaxFactorMenu;
         offsetMenu += Time.deltaTime * speedMenu;
         materialLoad.SetTextureOffset("_MainTex", Vector2.right * offsetMenu);
